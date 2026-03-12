@@ -2,12 +2,12 @@
 
 ## Team Members and Roles
 
-- **Yuhui** — Project Lead and Architecture Design. Designed the agentic query expansion workflow and overall prompt strategy.
-- **[Member 2 Name]** — Vector Database and Data Engineering. Managed FAISS local persistence and PDF chunking.
-- **[Member 3 Name]** — Machine Learning Engineer. Evaluated and compared Ollama, HuggingFace, and Gemini embedding models.
-- **[Member 4 Name]** — Financial Domain Specialist. Analyzed GAAP reporting inconsistencies and helped define the Universal Accounting Protocols.
-- **[Member 5 Name]** — QA and Testing. Developed adversarial test questions and evaluated system failure cases.
-- **[Member 6 Name]** — UI/UX and Deployment. Built the Streamlit interface and handled Auditor Console state management.
+- **Yuhui Zhang** — Project Lead and Architecture Design. Designed the agentic query expansion workflow and overall prompt strategy.
+- **Haitong Huang** — Vector Database and Data Engineering. Managed FAISS local persistence and PDF chunking.
+- **Shangjun Zhang** — Machine Learning Engineer. Evaluated and compared Ollama, HuggingFace, and Gemini embedding models.
+- **Tieyuan Qian** — Financial Domain Specialist. Analyzed GAAP reporting inconsistencies and helped define the Universal Accounting Protocols.
+- **Yixin Wei** — QA and Testing. Developed adversarial test questions and evaluated system failure cases.
+- **Ziyu Wang** — UI/UX and Deployment. Built the Streamlit interface and handled Auditor Console state management.
 
 ---
 
