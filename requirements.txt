@@ -1,20 +1,22 @@
-# Base System
-streamlit
-python-dotenv
-pypdf
-faiss-cpu
+# --- Base System & UI ---
+streamlit==1.38.0
+python-dotenv==1.0.1
+pypdf==6.8.0
+faiss-cpu==1.13.2
 
-# V1: Local Sovereign (Ollama)
-langchain-ollama
+# --- LangChain Core Ecosystem (Fixed to your env) ---
+langchain==0.2.17
+langchain-community==0.4.1
+langchain-core==0.2.43
+langchain-text-splitters==0.2.4
 
-# V2: Hybrid Bridge (HuggingFace + Gemini)
-langchain-huggingface
-sentence-transformers
+# --- Model Specific Integrations ---
+langchain-google-genai==1.0.10
+langchain-ollama==1.0.1
+langchain-huggingface==0.0.3
+langchain-classic==1.0.2
 
-# V3: Intel Agent (Full Gemini Cloud)
-langchain
-langchain-community
-langchain-core
-langchain-text-splitters
-langchain-google-genai
-google-generativeai
+# --- Underlying AI Frameworks ---
+google-generativeai==0.7.2
+sentence-transformers==5.2.3
+huggingface_hub==1.6.0
