@@ -1,0 +1,20 @@
+# Base System
+streamlit
+python-dotenv
+pypdf
+faiss-cpu
+
+# V1: Local Sovereign (Ollama)
+langchain-ollama
+
+# V2: Hybrid Bridge (HuggingFace + Gemini)
+langchain-huggingface
+sentence-transformers
+
+# V3: Intel Agent (Full Gemini Cloud)
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-google-genai
+google-generativeai
