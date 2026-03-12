@@ -25,12 +25,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import PromptTemplate
 from langchain_huggingface import HuggingFaceEmbeddings
-
-# Stability wrapper for chains
-try:
-    from langchain.chains.question_answering import load_qa_chain
-except ImportError:
-    from langchain_community.chains.question_answering import load_qa_chain
+from langchain.chains.question_answering import load_qa_chain
 
 # --- CONFIGURATION ---
 DB_DIR = "faiss_index_hybrid_v3"
